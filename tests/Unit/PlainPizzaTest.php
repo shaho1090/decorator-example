@@ -9,14 +9,14 @@ use PHPUnit\Framework\TestCase;
 class PlainPizzaTest extends TestCase
 {
 
-    public function test_it_has_get_description_method_and_return_string()
+    public function test_it_has_get_description_method_with_string_returning()
     {
         $plainPizza = new PlainPizza();
 
         $this->assertIsString(call_user_func_array([$plainPizza,'description'],[]));
     }
 
-    public function test_it_has_description_method_and_return_string()
+    public function test_it_has_description_method_with_scalar_returning()
     {
         $plainPizza = new PlainPizza();
 
