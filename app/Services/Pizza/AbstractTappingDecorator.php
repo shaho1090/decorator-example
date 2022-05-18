@@ -4,9 +4,9 @@
 namespace App\Services\Pizza;
 
 
-class TappingDecorator implements PizzaInterface
+abstract class AbstractTappingDecorator implements PizzaInterface
 {
-    private PizzaInterface $tempPizza;
+    public PizzaInterface $tempPizza;
 
     public function __construct(PizzaInterface $pizza)
     {
