@@ -1,4 +1,4 @@
-This is a simple example of using the Decorator Design Pattern. 
+This is a simple example of the Decorator Design Pattern. 
 
 Thanks to Derek Banas' explanation on the link below : 
 
